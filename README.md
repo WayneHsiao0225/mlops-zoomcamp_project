@@ -49,8 +49,6 @@ Run docker file.
 ```
 docker-compose up --build
 ```
-Create a dockerfile for mlflow:
-```
 
 
 
