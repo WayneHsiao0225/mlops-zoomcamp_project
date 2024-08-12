@@ -56,6 +56,19 @@ docker-compose up --build
 ```
 python -m unittest test_churn_model.py
 ```
-
+## 8. Use a linter and code formatter
+Install the Linter
+```
+pip install pylint
+```
+Install the Code Formatter
+```
+pip install black
+```
+Run the Linter and code formatter 
+```
+pylint main.py
+black main.py
+```
 
 
