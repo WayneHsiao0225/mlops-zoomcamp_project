@@ -39,6 +39,7 @@ python register_model.py
 Launch Prefect Server.
 ```
 prefect server start
+```
 Trigger the process manually.
 ```
 python3 .training.py
