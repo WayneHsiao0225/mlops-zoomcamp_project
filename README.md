@@ -49,6 +49,13 @@ Run docker file.
 ```
 docker-compose up --build
 ```
+## 4.
+## 6. Model Monitoring
+
+## 7. Unit tests 
+```
+python -m unittest test_churn_model.py
+```
 
 
 
