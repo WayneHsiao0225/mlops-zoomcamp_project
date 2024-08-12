@@ -45,4 +45,12 @@ Trigger the process manually.
 python3 .training.py
 ```
 ## 3.Workflow orchestration:
+Run docker file.
+```
+docker-compose up --build
+```
+Create a dockerfile for mlflow:
+```
+
+
 
