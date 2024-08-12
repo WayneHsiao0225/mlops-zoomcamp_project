@@ -50,7 +50,10 @@ Run docker file.
 docker-compose up --build
 ```
 ## 4. Model Monitoring
-
+Calculate evidently metrics with prefect and send them to database
+```
+python evidently_metrics_calculation.py
+```
 ## 5. Unit tests 
 ```
 python -m unittest test_churn_model.py
