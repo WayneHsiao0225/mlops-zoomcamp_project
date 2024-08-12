@@ -56,7 +56,7 @@ python evidently_metrics_calculation.py
 ```
 ## 5. Unit tests 
 ```
-python -m unittest test_churn_model.py
+python -m unittest test_churn_model.py 
 ```
 ## 6. Use a linter and code formatter
 Install the Linter
