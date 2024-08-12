@@ -36,3 +36,12 @@ python hpo.py
 python register_model.py
 ```
 ### 2-2.Prefect
+Launch Prefect Server:
+```
+$ prefect server start
+Trigger the process manually or wait until the scheduled one starts. The training process uses data previously scraped, which is now stored on Google Cloud Storage Bucket:
+```
+```
+$ python3 .training/otomoto_training.py
+```
+
