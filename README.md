@@ -49,14 +49,13 @@ Run docker file.
 ```
 docker-compose up --build
 ```
-## 4.
-## 6. Model Monitoring
+## 4. Model Monitoring
 
-## 7. Unit tests 
+## 5. Unit tests 
 ```
 python -m unittest test_churn_model.py
 ```
-## 8. Use a linter and code formatter
+## 6. Use a linter and code formatter
 Install the Linter
 ```
 pip install pylint
